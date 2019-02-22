@@ -24,6 +24,9 @@ header{
     background-repeat: no-repeat;
     background-size: cover; 
 }
+header .row{
+    margin:0;
+}
 .header-info{
     height: 26px;
     background-color: white;
@@ -192,6 +195,9 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.footer-content .map,.footer-content{
+   margin: 0; 
 }
 .footer-content .tamb{
     width: 300px;
