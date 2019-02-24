@@ -200,16 +200,15 @@ h1{
    margin: 0; 
 }
 .footer-content .tamb{
-    width: 300px;
+    width: fit-content;
     height: fit-content;
     border: 1px solid orangered;
     display: inline-block;
-    margin-right: 15px;
     text-align: center;
     color: white;
     background-color: #ff4500a6;
-    margin-bottom: 10px;
-    padding-bottom: 5px;
+    margin: 10px;
+    padding: 10px;
 }
 .footer-content .tamb button{
 color: orangered;
@@ -239,18 +238,8 @@ footer .map iframe{
     height: 100%;;
 }
 /** .//footer **/
-
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { 
-
-}
-
-// Large devices (desktops, 992px and up)
 @media (min-width: 992px) { 
     .footer-content .col-md-10{
-        height:200px;
+        height:fit-content;
     }
 }
